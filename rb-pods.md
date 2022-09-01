@@ -8,3 +8,11 @@ Similar to
 ```
 kubectl x y z
 ```
+
+#### pod delete <namespace> <cluster>
+Deletes pods matching the namespace in the cluster. 'All' is accepted as ClusterId.
+  
+Similar to
+```
+kubectl delete pod x y z
+```
